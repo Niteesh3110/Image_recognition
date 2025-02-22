@@ -49,40 +49,6 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(1, activation='linear'),
 ])
 ```
-
-## Training
-
-The model is trained using the Adam optimizer with a learning rate of 0.001. The loss function used is Mean Squared Error (MSE), and the metric monitored is Mean Absolute Error (MAE).
-
-### Training Parameters
-
-- **Epochs**: 20
-- **Batch Size**: 32
-
-## Evaluation
-
-The model's performance is evaluated using:
-
-- **Test MAE**: 4.58
-- **Test RMSE**: 10.50
-
-### Training and Validation Loss
-
-- **Training Loss**: Decreases steadily from 387.67 to close to zero.
-- **Validation Loss**: Fluctuates between 30 and 59, indicating potential overfitting.
-
-## Visualizations
-
-- **Loss Curves**: Plots of training and validation loss over epochs.
-- **Scatter Plot**: Actual vs predicted tomato counts.
-
-## Results
-
-- **Test MAE**: 4.58
-- **Test RMSE**: 10.50
-- **Training Loss**: Decreases steadily.
-- **Validation Loss**: Shows fluctuations, suggesting possible overfitting.
-
 ## Requirements
 
 - Python 3.x
