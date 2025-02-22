@@ -20,6 +20,8 @@ This project focuses on building a CNN model to predict the number of tomatoes i
 
 ## Dataset
 
+[Dataset](https://data.mendeley.com/datasets/8h3s6jkyff/2)
+
 The dataset consists of images and corresponding label files. Each image is preprocessed by resizing and normalizing pixel values. The labels are extracted from text files, where each non-empty line represents a tomato.
 
 ### Dataset Structure
